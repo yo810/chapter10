@@ -72,11 +72,12 @@ footer {
 
 main {
   width: 100%;
-  display: block;
+  flex-direction: column;
 }
 
 .step-box {
   width: 90%;
+  margin-bottom: 20px;
 }
 
 .step-img1 {
