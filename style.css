@@ -77,7 +77,13 @@ main {
 
 .step-box {
   width: 90%;
+  display: block;
+  margin: 0 auto;
   margin-bottom: 20px;
+}
+
+.step-box:last-child {
+  margin-right: auto;
 }
 
 .step-img1 {
